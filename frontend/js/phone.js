@@ -1,4 +1,4 @@
-const API_URL = "https://smartdine-backend.onrender.com";
+const API_URL = "https://smartdine-backend-59y6.onrender.com";
 
 function submitPhone() {
   const phone = document.getElementById("phone").value;
@@ -29,4 +29,5 @@ function submitPhone() {
     })
     .catch(err => console.log(err));
 }
+
 
