@@ -16,7 +16,7 @@ const menuItems = [
 let cart = [];
 
 const tableNumber = localStorage.getItem("tableNumber");
-const API_URL = "http://localhost:5000";
+const API_URL = "https://smartdine-backend.onrender.com";
 
 window.onload = () => {
   const tableNumber = localStorage.getItem("tableNumber");
@@ -208,3 +208,4 @@ function combineTables() {
 })
     .catch(err => console.log(err));
 }
+
