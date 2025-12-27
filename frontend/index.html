@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartDine | Table Booking</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>🍽️ SmartDine – Table Status</h1>
+
+  <!-- TABLE STATUS GRID -->
+  <div id="tables-container"></div>
+
+  <hr>
+
+  <!-- BOOK TABLE SECTION -->
+  <h2>Book Your Table</h2>
+
+  <div class="booking-box">
+    <input type="number" id="tableNumber" placeholder="Enter Table Number">
+    <input type="password" id="password" placeholder="Enter Table Password">
+    <button onclick="bookTable()">Book Table</button>
+  </div>
+
+  <p id="message"></p>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

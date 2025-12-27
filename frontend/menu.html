@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartDine | Menu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>🍽️ SmartDine Menu</h1>
+
+  <div class="menu-container">
+    <div id="menu" class="menu-grid"></div>
+
+    <div class="cart-box">
+      <h2>🛒 Your Order</h2>
+      <div id="cart"></div>
+      <h3>Total: ₹<span id="total">0</span></h3>
+      <button class="confirm-btn" onclick="confirmOrder()">Confirm Order</button>
+      <button class="waiter-btn" onclick="callWaiter()">Call Waiter</button>
+<button class="pay-btn" onclick="confirmPayment()">Confirm Payment</button>
+<button class="split-btn" onclick="splitBill()">Split Bill</button>
+<button class="combine-btn" onclick="combineTables()">Combine Tables</button>
+
+      <p id="message"></p>
+    </div>
+
+  </div>
+
+  <script src="js/menu.js"></script>
+</body>
+
+</html>
