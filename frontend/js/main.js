@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+https://smartdine-backend-59y6.onrender.com
 
 // Load tables when page opens
 window.onload = fetchTables;
@@ -52,4 +52,5 @@ if (data.message === "Table booked successfully") {
     })
     .catch(err => console.log(err));
 }
+
 
