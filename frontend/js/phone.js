@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = "https://smartdine-backend.onrender.com";
 
 function submitPhone() {
   const phone = document.getElementById("phone").value;
@@ -29,3 +29,4 @@ function submitPhone() {
     })
     .catch(err => console.log(err));
 }
+
