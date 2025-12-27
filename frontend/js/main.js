@@ -1,4 +1,4 @@
-https://smartdine-backend-59y6.onrender.com
+const API_URL = "https://smartdine-backend.onrender.com";
 
 // Load tables when page opens
 window.onload = fetchTables;
@@ -52,5 +52,6 @@ if (data.message === "Table booked successfully") {
     })
     .catch(err => console.log(err));
 }
+
 
 
